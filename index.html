@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Joti+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="dist/css/index.css" rel="stylesheet">
+  <title>Example</title>
+</head>
+<body>
+  <div class="ada-menu">
+    <div class="ada-menu__header">
+      <div class="ada-icon ada-menu__header--cross" data-ada-menu-toggle data-iconName="cross"></div>
+    </div>
+    <ul class="ada-menu__container">
+      <li class="ada-menu__item">
+        <a class="ada-menu__text" href="#">пункт меню 1</a>
+      </li>
+      <li class="ada-menu__item">
+        <a class="ada-menu__text" href="#">пункт меню 2</a>
+      </li>
+      <li class="ada-menu__item">
+        <a class="ada-menu__text" href="#">пункт меню 3</a>
+      </li>
+      <li class="ada-menu__item">
+        <a class="ada-menu__text" href="#">пункт меню 4</a>
+      </li>
+      <li class="ada-menu__item">
+        <a class="ada-menu__text" href="#">пункт меню 5</a>        
+      </li>
+    </ul>
+  </div>
+  <div class="ada-wrap">
+    <div class="ada-header">
+      <div class="ada-icon ada-header__menu" data-ada-menu-toggle data-iconName="burger"></div>
+      <div class="ada-header__text">
+        <a>Login</a>
+      </div>
+    </div>
+    <div class="ada-container">
+      <div class="ada-panel">
+        <div class="ada-panel__header">
+          <div class="ada-panel__text">text</div>
+          <div class="ada-panel__icon" data-panel-toggle>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+              <g fill="none" fill-rule="evenodd">
+                <path fill="#000" fill-rule="nonzero" d="M12.35 15L20 22.211 27.65 15 30 17.22l-10 9.447-10-9.447z"/>
+                <path d="M0 0h40v40H0z"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div class="ada-panel__content">
+          <div class="ada-media-box__container">
+            <div class="ada-media-box">
+              <div class="ada-media-box__text">
+                <div> Text </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 class="ada-title">Buttons:</h1>
+      <div class="ada-row">
+        <div class="ada-col-lg-2">
+          <button class="ada-btn ada-btn--blank">Button</button>
+        </div>
+        <div class="ada-col-lg-3">
+          <button class="ada-btn ada-btn--fill">Fill button </button>
+        </div>
+      </div>
+      <br><br>
+      <button data-ada-modal-toggle>Modal</button>
+      <div class="ada-modal hide">
+        <div class="ada-modal__dialog">
+          <div class="ada-modal__content">
+            <div class="ada-form__header">
+              <h2 class="ada-title">Sign in</h2>
+              <div class="ada-icon ada-menu__header--cross" data-ada-modal-toggle data-iconName="cross"></div>
+            </div>
+            <div class="ada-form-control">
+              <label class="ada-form-control__label">Login*</label>
+              <input class="ada-form-control__input" type="text" placeholder="login" />
+            </div>
+            <div class="ada-form-control">
+              <label class="ada-form-control__label">Password*</label>
+              <input class="ada-form-control__input" type="text" placeholder="password" />
+            </div>
+            <div>
+              <button class="ada-btn ada-btn--fill">Authorization</button>
+            </div>
+            <div class="ada-form__footer">
+              <div>У вас ещё нет учётной записи?</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br>
+      <select class="ada-select">
+        <option value="" hidden>0 minutes</option>
+        <option>1 minutes</option>
+        <option>2 minutes</option>
+      </select>
+      <br><br>
+      <table class="ada-table ada-table--striped">
+        <thead>
+        <tr>
+          <th class="ada-table__cell--width200"></th>
+          <th class="ada-table__cell--width200">Navn</th>
+          <th class="ada-table__cell--width200">BibelPakke</th>
+          <th class="ada-table__cell--width200">Dato for samlingen</th>
+          <th class="ada-table__cell--width200">Planlagt av</th>
+        </tr>
+        <tr>
+          <th class="ada-table__cell ada-table__cell--width200">
+            <img src="https://dummyimage.com/180x100/000/fff">
+          </th>
+          <td class="ada-table__cell ada-table__cell-content--header ada-table__cell--width200">Oppstart</td>
+          <td class="ada-table__cell ada-table__cell-content--header ada-table__cell--width200">Hostpakken</td>
+          <td class="ada-table__cell ada-table__cell-content--header ada-table__cell--width200">Dato</td>
+          <td class="ada-table__cell ada-table__cell-content--header ada-table__cell--width200">PlanLagt av</td>
+        </tr>
+        <tr>
+          <th class="ada-table__cell ada-table__cell--width200">
+            <img src="https://dummyimage.com/180x100/000/fff">
+          </th>
+          <td class="ada-table__cell ada-table__cell-content--header ada-table__cell--width200">Skatten og perlen</td>
+          <td class="ada-table__cell ada-table__cell-content--header ada-table__cell--width200">Hostpakken</td>
+          <td class="ada-table__cell ada-table__cell-content--header ada-table__cell--width200">Dato</td>
+          <td class="ada-table__cell ada-table__cell-content--header ada-table__cell--width200">PlanLagt av</td>
+        </tr>
+      </tbody>
+    </table>
+    <br><br>
+    <div>
+    <h2 class="ada-title">Test title</h2>
+  </div>
+  <form>
+    <div class="ada-form">
+      <div class="ada-form-control" id="autocomplete">
+        <label class="ada-form-control__label">Test label</label>
+        <input class="ada-form-control__input ada-autocomplete" type="text" placeholder="input"/>
+      </div>
+      <div class="ada-form-control">
+        <input class="ada-input-checkbox" type="checkbox"/>
+      </div>
+      <div class="ada-form__footer">
+        <button class="ada-btn">Blank button</button>
+        <button class="ada-btn ada-btn--fill">Fill button </button>
+      </div>
+    </div>
+  </form>
+  <form>
+    <div class="ada-form ada-form--image-bg">
+      <div class="ada-form-control">
+        <label class="ada-form-control__label ada-form-control__label--image-bg">Test label for image bg</label>
+        <input class="ada-form-control__input ada-form-control__input--image-bg" type="text" placeholder="input"/>
+      </div>
+    </div>
+  </form>
+  <div class="ada-slider" id="slider">
+    <div class="ada-slider__arrows ada-slider__arrows--prev" id="prev"></div>
+    <div class="ada-slider__slide-container">
+      <div class="ada-slider__slide">
+        <img src="http://bipbap.ru/wp-content/uploads/2017/04/72fqw2qq3kxh.jpg" alt=""/>
+      </div>
+      <div class="ada-slider__slide">
+        <img src="http://www.gettyimages.ca/gi-resources/images/Homepage/Hero/UK/CMS_Creative_164657191_Kingfisher.jpg" alt=""/>
+      </div>
+      <div class="ada-slider__slide">
+        <img src="https://cdn.fishki.net/upload/post/2017/03/19/2245758/tn/07-cute-cat-wallpaper-hdcat-wallpaper.jpg" alt=""/>
+      </div>
+    </div>
+    <div class="ada-slider__arrows ada-slider__arrows--next" id="next"></div>
+  </div>
+  </div>
+  </div>
+  <div class="ada-panel">
+    <div class="ada-panel__header">
+      <div class="ada-panel__text">text</div>
+      <div class="ada-panel__icon" data-panel-toggle>
+        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+          <g fill="none" fill-rule="evenodd">
+            <path fill="#000" fill-rule="nonzero" d="M12.35 15L20 22.211 27.65 15 30 17.22l-10 9.447-10-9.447z"/>
+            <path d="M0 0h40v40H0z"/>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <div class="ada-panel__content">
+      <div class="ada-media-box__container">
+        <div class="ada-media-box">
+          <img src="#" alt="test" width="200px" height="115px">
+          <div class="ada-media-box__text">
+            <div> text </div>
+            <div> text </div>
+          </div>
+          <div class="ada-media-box__icon" data-media-card-toggle>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+              <g fill="none" fill-rule="evenodd">
+                <path fill="#000" fill-rule="nonzero" d="M12.35 15L20 22.211 27.65 15 30 17.22l-10 9.447-10-9.447z"/>
+                <path d="M0 0h40v40H0z"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div class="ada-media-box__content">
+          <a href="#">text 1</a>
+          <a href="#">text 2</a>
+          <a href="#">text 3</a>
+          <a href="#">text 4</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    <script src="dist/js/app.js"></script>
+</body>
+
+<img src="" alt="">
+</html>

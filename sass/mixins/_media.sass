@@ -1,0 +1,12 @@
+@mixin media-breakpoint-mobile
+  @media (max-width : $mobile - 1)
+    @content
+@mixin media-breakpoint-tablet
+  @media (min-width: $mobile) and (max-width: $tablet - 1)
+    @content
+@mixin media-breakpoint-desktop
+  @media (min-width: $tablet) and (max-width: $desktop - 1)
+    @content
+@mixin media-breakpoint-large-desktop
+  @media (min-width: $desktop)
+    @content

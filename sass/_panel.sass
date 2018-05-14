@@ -1,0 +1,43 @@
+.ada-panel
+  align-items: center
+  &__header
+    display: flex
+    justify-content: space-between
+    background-color: $gray-dark
+    padding: 16px
+    margin-top: 24px
+    align-items: center
+    cursor: pointer
+    outline: none
+  &__text
+    margin: 0
+    padding: 0
+    color: $gray
+    &:hover
+      color: $white
+  &__icon
+    object-fit: contain
+    cursor: pointer
+    height: 24px
+    svg
+      width: 24px
+      height: 24px
+      path:nth-child(1)
+        fill: $gray
+        &:hover
+          fill: $white
+    &--active
+        transform: rotate(180deg)
+  &__content
+    background-color: $white-dark
+    display: none
+    flex-flow: wrap
+    padding: 16px
+    cursor: pointer
+    &--visible
+      display: block
+    &:hover
+      background-color: $white
+
+  &__item
+   cursor: pointer

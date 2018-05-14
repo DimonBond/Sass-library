@@ -1,0 +1,11 @@
+// Grid columns
+@mixin  make-columns()
+  position: relative
+  width: 100%
+  padding-right: 15px
+  padding-left: 15px
+
+@mixin make-grid-columns($i, $columns)
+  box-sizing: border-box
+  flex: 0 0 percentage($i / $columns)
+  max-width: percentage($i / $columns)

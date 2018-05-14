@@ -1,0 +1,38 @@
+.ada-media-box
+    background-color: rgba($gray-lighter, 0.2)
+    display: flex
+    padding: 16px
+    border-bottom: 1px solid rgba( $gray-lighter, 0.22 )
+    &__text
+      display: flex
+      flex-grow: 1
+      flex-direction: column
+      justify-content: space-between
+      color: $blue
+      &:hover
+        color: $blue-medium
+    &__icon
+      align-self: flex-end
+      margin-left: 16px
+      cursor: pointer
+      height: 24px
+      svg
+        width: 24px
+        height: 24px
+      &--active
+        transform: rotate(180deg)
+    &__content
+      display: none
+      padding: 6px 0px 7px 0px
+      background-color: rgba($gray-lighter, 0.2)
+      &--visible
+        display: flex
+    &__container
+      display: flex
+      flex-direction: column
+      margin: 8px 0px
+    &--open
+      .media-box__icon
+        transform: rotate(180deg)
+      .media-box__content
+        display: flex

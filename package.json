@@ -1,0 +1,30 @@
+{
+  "name": "bootstrapada",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/norse-practice-2018/ada-ui-lib.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/norse-practice-2018/ada-ui-lib/issues"
+  },
+  "homepage": "https://gitlab.com/norse-practice-2018/ada-ui-lib#README",
+  "dependencies": {
+    "normalize-scss": "^7.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-newer": "^1.4.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
